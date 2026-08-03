@@ -1,0 +1,9 @@
+{
+  "name": "ylmzfun/ylmz_moonbit",
+  "version": "0.1.0",
+  "readme": "README.md",
+  "repository": "",
+  "license": "MIT",
+  "keywords": ["web", "framework", "gin"],
+  "description": "A Gin-like web framework for MoonBit"
+}

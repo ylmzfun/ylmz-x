@@ -1,0 +1,16 @@
+# MoonBit build output
+_build/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MoonBit toolchain (if vendored locally)
+.moon/

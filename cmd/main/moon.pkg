@@ -1,0 +1,7 @@
+import {
+  "ylmzfun/ylmz_moonbit" @lib,
+}
+
+options(
+  "is-main": true,
+)
