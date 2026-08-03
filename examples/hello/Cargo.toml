@@ -1,0 +1,9 @@
+[package]
+name = "hello-ylmz"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+ylmz = { path = "../../ylmz" }
+serde = { version = "1", features = ["derive"] }
+tokio = { version = "1", features = ["full"] }

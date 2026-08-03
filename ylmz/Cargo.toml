@@ -1,0 +1,18 @@
+[package]
+name = "ylmz"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+ylmz-macros = { path = "../ylmz-macros" }
+tokio = { version = "1", features = ["full"] }
+hyper = { version = "1", features = ["http1", "server", "client"] }
+hyper-util = { version = "0.1", features = ["full"] }
+http-body-util = "0.1"
+http = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+serde_urlencoded = "0.7"
+url = "2"
+log = "0.4"
+paste = "1"
