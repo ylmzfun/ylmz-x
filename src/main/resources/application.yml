@@ -1,0 +1,7 @@
+# application.yml
+app:
+  name: ylmz-java-framework
+  version: 1.0.0
+
+server:
+  port: 8080
